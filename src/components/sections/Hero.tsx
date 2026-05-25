@@ -50,6 +50,27 @@ export default function Hero() {
           Available for new projects
         </div>
 
+        {/* Avatar */}
+        <div
+          className="flex justify-center mb-8 animate-fade-in-up"
+          style={{ animationDelay: '0.05s' }}
+        >
+          <div className="relative w-32 h-32 sm:w-40 sm:h-40">
+            {/* Glowing ring */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#6c63ff] to-[#ff6584] p-[3px] shadow-lg shadow-[#6c63ff]/40">
+              <div className="w-full h-full rounded-full overflow-hidden bg-[#0f0f1a]">
+                <img
+                  src="https://i.ibb.co/placeholder/avatar.jpg"
+                  alt="Alex Chen"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            {/* Online indicator */}
+            <span className="absolute bottom-2 right-2 w-4 h-4 bg-green-400 rounded-full border-2 border-[#0f0f1a] shadow-md" />
+          </div>
+        </div>
+
         {/* Name */}
         <h1
           className="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white mb-6 animate-fade-in-up"
