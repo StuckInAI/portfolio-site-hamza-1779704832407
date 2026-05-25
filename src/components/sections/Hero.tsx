@@ -60,9 +60,9 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#6c63ff] to-[#ff6584] p-[3px] shadow-lg shadow-[#6c63ff]/40">
               <div className="w-full h-full rounded-full overflow-hidden bg-[#0f0f1a]">
                 <img
-                  src="https://i.ibb.co/placeholder/avatar.jpg"
+                  src="https://sopprkucealncmlipghn.supabase.co/storage/v1/object/public/prompt-images/build-images/1779705120065-WhatsApp-Image-2026-04-13-at-8.55.33-PM.jpeg"
                   alt="Alex Chen"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
             </div>
